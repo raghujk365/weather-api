@@ -1,0 +1,81 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Nunito", sans-serif;
+  background: linear-gradient(to bottom right, #ff8080, #ffd9b3);
+}
+
+.input{
+  text-align: center;
+  margin: 100px auto;
+}
+
+input[type="submit"]{
+  padding: 15px 30px;
+  background: #ffc34d;
+  border: none;
+  border-radius: 5px;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+input[type="submit"]:hover{
+  background: #ff9900;
+}
+
+.input input[type="text"]{
+  width: 600px;
+  height: 55px;
+  padding: 5px 10px;
+  background: #ffffff;
+  border: 2px solid #ff9900;
+  border-radius: 5px;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.card{
+  width: 50%;
+  background: #ffffff;
+  height: 40vh;
+  margin: 50px auto;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.close{
+  float: right;
+  margin-top: -2px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.card h1{
+  padding: 5px 0;
+  text-align: center;
+  font-size: 30px;
+  color: #ff9900;
+}
+
+.card p{
+  text-align: center;
+  margin: 40px 0;
+  font-size: 20px;
+  color: #444444;
+}
+.weather-icon {
+  font-size: 5rem;
+  margin-top: 20px;
+  display: block;
+  text-align: center;
+}

@@ -1,2 +1,2 @@
-# weather-api
-weather update
+# weatherapi
+about weather
